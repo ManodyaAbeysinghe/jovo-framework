@@ -307,7 +307,7 @@ host: {
         askProfile: '<your-ask-cli-profile>', // if left out: "default" profile is used
     }
 }
-```
+```//
 
 Note: If you're only building an Alexa Skill, there is no need to specify a host with the same information that is already in the `endpoint`. This is mostly important if you also want to host your Google Action on AWS Lambda and make it accessible through an API Gateway.
 
